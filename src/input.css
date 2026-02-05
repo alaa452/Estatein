@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    /* Colors */
+    --color-button: #141414;
+    --color-background: #1A1A1A;
+    --color-border: #262626;
+
+    /* Font Families */
+    --font-urbanist: 'Urbanist', sans-serif;
+    --breakpoint-xll: 1440px;
+    --breakpoint-sms: 768px;
+}
+
+@layer base {
+    body {
+        background-color: var(--color-background);
+        color: #ffffff;
+        font-family: var(--font-urbanist);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+@layer utilities {
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        @apply mx-auto;
+    }
+
+    .btn-primary {
+        @apply bg-button text-white px-6  rounded-xl font-medium 
+        border border-border;
+    }
+}

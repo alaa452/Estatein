@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatein</title>
+    <!-- font awesome cdl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="bg-[url(../assets/images/navbar/BackGroundNavBar.png)] flex h-12.25">
+            <div class=" w-full max-sm:justify-start row gap-2.5 ">
+                <p class="font-medium max-sms:text-xs max-sms:pl-4 ">✨Discover Your Dream Property with Estatein</p>
+                <a href="#" class="hunderline cursor-pointer font-medium max-sms:text-xs underline hover:text-sky-400 transition-all">Learn More</a>
+            </div>
+            <div class="">
+                <img src="./assets/icons/navbar/btnClose.png" alt="button close" class="py-2.75 px-8 cursor-pointer max-sms:right-4">
+            </div>
+        </div>
+        <div>
+            <div class="container flex justify-between items-center h-24.75">
+                <div class="flex gap-2.5 items-center p-6">
+                    <img src="./assets/images/navbar/SymbolEstatein.png" alt="logo Estatein" class="max-sms:w-7 max-sms:h-7 max-xll:h-8.5 max-xll:w-8.5">
+                    <img src="./assets/images/navbar/TitleBrand.png" alt="Title Estatein" class="max-sms:w-[59.5px] max-sms:h-3 max-xll:w-18 max-xll:h-[14.5px]">
+                </div>
+                <nav class="max-sms:hidden h-13.75 max-xll:h-11.25">
+                    <ul class="flex gap-7.5 font-medium items-center h-full">
+                        <li class="flex items-center h-full">
+                            <a href="#" class="btn-primary h-full row hover:bg-white/10 hover:text-sky-400 transition-all">Home</a>
+                        </li>
+                        <li class="">
+                            <a href="#" class="hover:text-sky-400 transition-all">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-sky-400 transition-all">Properties</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-sky-400 transition-all">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <button class="btn-primary h-14.75 w-34 max-sms:hidden cursor-pointer transition-all hover:bg-white/10 hover:text-sky-400">Contact Us</button>
+                    <img src="./assets/icons/navbar/Vector(Stroke).png" alt="menu bar" class="mr-4 cursor-pointer sms:hidden">
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
