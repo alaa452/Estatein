@@ -3,13 +3,16 @@
 @theme {
     /* Colors */
     --color-button: #141414;
-    --color-background: #1A1A1A;
+    --color-background: #141414;
+    --color-background-secondary: #1A1A1A;
     --color-border: #262626;
+    --color-p: #999999;
+    --color-btnSecondary: #703BF7;
 
     /* Font Families */
     --font-urbanist: 'Urbanist', sans-serif;
     --breakpoint-xll: 1440px;
-    --breakpoint-sms: 768px;
+    --breakpoint-3xl: 1700px;
 }
 
 @layer base {
@@ -17,6 +20,7 @@
         background-color: var(--color-background);
         color: #ffffff;
         font-family: var(--font-urbanist);
+        height: 2000px !important;
     }
 
     h1,
@@ -30,18 +34,32 @@
 }
 
 @layer utilities {
+
     .row {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @apply flex items-center justify-center;
     }
 
-    .container {
-        @apply mx-auto;
+    .container  {
+        @apply mx-auto max-w-399;
     }
 
     .btn-primary {
-        @apply bg-button text-white px-6  rounded-xl font-medium 
-        border border-border;
+        @apply bg-button text-white px-6 rounded-xl font-medium border border-border cursor-pointer;
+    }
+
+    .btn-secondary {
+        @apply bg-btnSecondary rounded-xl font-medium border border-border cursor-pointer;
+    }
+
+    .card-feature-1 {
+        @apply flex flex-col pl-6 pt-4 gap-0.5 bg-background-secondary rounded-xl h-30.25 ;
+    }
+
+    .card-feature-div-heroSection {
+        @apply flex items-center justify-center flex-col gap-5 bg-background-secondary h-53  relative border rounded-xl border-background-secondary;
+    }
+
+    .card-feature-2 {
+        @apply absolute top-5 right-5 cursor-pointer hover:scale-110 transition-all;
     }
 }
