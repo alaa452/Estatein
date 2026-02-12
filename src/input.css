@@ -12,6 +12,8 @@
     /* Font Families */
     --font-urbanist: 'Urbanist', sans-serif;
     --breakpoint-xll: 1440px;
+    
+    /*Responsive Breakpoints*/
     --breakpoint-3xl: 1700px;
 }
 
@@ -40,7 +42,7 @@
     }
 
     .container  {
-        @apply mx-auto max-w-399;
+        @apply mx-auto max-w-399 px-4;
     }
 
     .btn-primary {
