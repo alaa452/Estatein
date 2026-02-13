@@ -12,7 +12,7 @@
     /* Font Families */
     --font-urbanist: 'Urbanist', sans-serif;
     --breakpoint-xll: 1440px;
-    
+
     /*Responsive Breakpoints*/
     --breakpoint-3xl: 1700px;
 }
@@ -46,7 +46,7 @@
     }
 
     .btn-primary {
-        @apply bg-button text-white px-6 rounded-xl font-medium border border-border cursor-pointer;
+        @apply bg-button text-white sm:px-6 rounded-xl font-medium border border-border cursor-pointer;
     }
 
     .btn-secondary {
