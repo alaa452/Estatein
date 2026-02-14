@@ -22,7 +22,7 @@
         background-color: var(--color-background);
         color: #ffffff;
         font-family: var(--font-urbanist);
-        height: 2000px !important;
+        min-height: 100vh;
     }
 
     h1,
@@ -41,8 +41,8 @@
         @apply flex items-center justify-center;
     }
 
-    .container  {
-        @apply mx-auto max-w-399 px-4;
+    .container {
+        @apply mx-auto px-4;
     }
 
     .btn-primary {
@@ -54,14 +54,15 @@
     }
 
     .card-feature-1 {
-        @apply flex flex-col pl-6 pt-4 gap-0.5 bg-background-secondary rounded-xl h-30.25 ;
+        @apply flex flex-col pl-6 pt-4 gap-0.5 bg-background-secondary rounded-xl h-30.25;
     }
 
     .card-feature-div-heroSection {
-        @apply flex items-center justify-center flex-col gap-5 bg-background-secondary h-53  relative border rounded-xl border-background-secondary;
+        @apply flex items-center justify-center flex-col gap-5 bg-background-secondary h-53 relative border rounded-xl border-background-secondary;
     }
 
     .card-feature-2 {
         @apply absolute top-5 right-5 cursor-pointer hover:scale-110 transition-all;
     }
+
 }
