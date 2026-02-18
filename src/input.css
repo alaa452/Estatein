@@ -8,8 +8,7 @@
     --color-border: #262626;
     --color-p: #999999;
     --color-btnSecondary: #703BF7;
-    --color-borderIcon-OurValues:#703BF7;
-
+    --color-borderIcon-OurValues: #703BF7;
     /* Font Families */
     --font-urbanist: 'Urbanist', sans-serif;
     --breakpoint-xll: 1440px;
@@ -45,6 +44,33 @@
     .container {
         @apply mx-auto px-4;
     }
+
+    .container {
+    width: 100%;
+
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+        @media (width >= 1440px) {
+      max-width: 1440px;
+    }
+    @media (width >= 1700px) {
+      max-width: 1700px;
+    }
+  }
+    
 
     .btn-primary {
         @apply bg-button text-white sm:px-6 rounded-xl font-medium border border-border cursor-pointer;
