@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details</title>
+    <!-- font awesome cdl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+
+    <header class="navbar bg-background-secondary w-full sticky top-0 z-50">
+        <div class="bg-[url(../assets/images/navbar/BackGroundNavBar.png)] flex h-12.25 stroke-1">
+            <div class=" w-full max-sm:justify-start row gap-2.5">
+                <p class="font-medium max-md:text-xs max-md:pl-4 ">✨Discover Your Dream Property with Estatein</p>
+                <a href="#"
+                    class="hunderline cursor-pointer font-medium max-md:text-xs underline hover:text-sky-400 transition-all">Learn
+                    More</a>
+            </div>
+            <div class="">
+                <img src="./assets/icons/navbar/btnClose.png" alt="button close" class="py-2.75 px-8 max-md:right-4">
+            </div>
+        </div>
+        <div class="border border-border">
+            <div class="container flex justify-between items-center h-24.75">
+                <div class="flex gap-2.5 items-center">
+                    <img src="./assets/images/navbar/SymbolEstatein.png" alt="logo Estatein"
+                        class="max-md:w-7 max-md:h-7 max-xll:h-8.5 max-xll:w-8.5">
+                    <img src="./assets/images/navbar/TitleBrand.png" alt="Title Estatein"
+                        class="max-md:w-[59.5px] max-md:h-3 max-xll:w-18 max-xll:h-[14.5px]">
+                </div>
+                <nav class="max-md:hidden h-13.75 max-xll:h-11.25">
+                    <ul class="flex gap-7.5 font-medium items-center h-full">
+                        <li>
+                            <a href="index.html" class="hover:text-sky-400 transition-all">Home</a>
+                        </li>
+                        <li>
+                            <a href="about-us.html" class="hover:text-sky-400 transition-all">About
+                                Us</a>
+                        </li>
+
+                        <li class="flex items-center h-full">
+                            <a href="#"
+                                class="btn-primary h-full row hover:bg-white/10 hover:text-sky-400 transition-all">Properties</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:text-sky-400 transition-all">Services</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <button
+                        class="btn-primary h-14.75 w-34 max-md:hidden transition-all hover:bg-white/10 hover:text-sky-400">Contact
+                        Us</button>
+                    <img src="./assets/icons/navbar/Vector(Stroke).png" alt="menu bar"
+                        class="mr-4 cursor-pointer md:hidden">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="w-full 3xl:mt-27.5 xl:max-3xl:mt-22.5 mt-15.25">
+        <div class="container flex flex-col gap-7.5">
+            <div class="flex max-md:flex-col md:items-center gap-5">
+                <div class="flex max-md:flex-col 2xl:w-92 w-70 lg:w-81">
+                    <h3 class="text-xl lg:text-2xl 2xl:text-[30px] font-semibold">
+                        Seaside Serenity Villa
+                    </h3>
+
+                </div>
+                <div class="flex md:justify-between w-full gap-5">
+                    <div class="p-2 2xl:p-2.5 border border-border rounded-2xl flex gap-2.5 items-center">
+                        <img src="./assets/icons/loaction-white.png" alt="Loaction">
+                        <p class="text-sm lg:text-base 2xl:text-lg leading-[150%]">Malibu, California</p>
+                    </div>
+                    <div class="flex md:flex-col max-md:items-center max-md:gap-2.5">
+                        <span class="price-label">Price</span>
+                        <span class="price-value">$1,250,000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-background-secondary border border-border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col 2xl:gap-7.5 gap-5">
+                <div
+                    class="2xl:p-5 p-2.5 grid grid-cols-4 lg:grid-cols-6 xl:grid-cols-9 gap-5 bg-background rounded-2xl max-lg:order-2">
+                    <img src="./assets/images/front-villa.png" alt="Front Villa">
+                    <img src="./assets/images/back-villa.png" alt="Back Villa" class="opacity-50">
+                    <img src="./assets/images/swimming-pool.png" alt="Swimming Pool" class="opacity-50">
+                    <img src="./assets/images/swimming-pool-sit.png" alt="Swimming Pool Sit" class="opacity-50">
+                    <img src="./assets/images/sitting-room-1.png" alt="Sittin Room 1" class="opacity-50 max-lg:hidden">
+                    <img src="./assets/images/sitting-room-3.png" alt="Sittin Room 3" class="opacity-50 max-lg:hidden">
+                    <img src="./assets/images/the-kitchen.png" alt="The Kitchen" class="opacity-50 max-xl:hidden">
+                    <img src="./assets/images/sitting-room-2.png" alt="Sittin Room 2" class="opacity-50 max-xl:hidden">
+                    <img src="./assets/images/bedroom.png" alt="Bedroom" class="opacity-50 max-xl:hidden">
+                </div>
+                <div class="grid lg:grid-cols-2 gap-7.5 max-lg:order-1">
+                    <img src="./assets/images/front-villa-big.png" alt="Front Villa" class="rounded-xl">
+                    <img src="./assets/images/sitting-room-big.png" alt="Sitting Room" class="rounded-xl max-lg:hidden">
+                </div>
+                <div class="flex justify-center p-2 xl:p-2.5 max-lg:order-3">
+                    <div
+                        class="flex gap-2.5 items-center bg-background rounded-full p-2.5 justify-between max-md:w-full">
+                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-border">
+                            <img src="./assets/icons/left-arrow.png" alt="Left Arrow">
+                        </div>
+
+                        <div class="flex gap-1">
+                            <div class="bg-btnSecondary w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+                            <div class="bg-btnTape w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+                            <div class="bg-btnTape w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+                            <div class="bg-btnTape w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+                            <div class="bg-btnTape w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+                            <div class="bg-btnTape w-2.75 2xl:w-5 h-0.75 xl:h-1.25 rounded-full"></div>
+
+                        </div>
+
+                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-background-secondary">
+                            <img src="./assets/icons/right-arrow.png" alt="Right Arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-7.5">
+                <div>
+                    <div class="broder border-border border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-12.5">
+                        <div class="flex flex-col gap-3.5">
+                            <h4 class="xl:text-2xl text-lg md:text-xl font-semibold leading-[150%]">Description</h4>
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">
+                                Discover your own piece of paradise with the Seaside Serenity Villa. T With an open
+                                floor
+                                plan,
+                                breathtaking ocean views from every room, and direct access to a pristine sandy beach,
+                                this
+                                property
+                                is the epitome of coastal living.
+                            </p>
+                        </div>
+                        <div class="grid grid-cols-2 md:grid-cols-3 border-t border-border pt-5 gap-2.5 2xl:gap-5">
+                            <div class="flex flex-col gap-2.5 border-r border-border">
+                                <div class="flex gap-1.5">
+                                    <img src="./assets/icons/bedrooms-gray.png" alt="Bedrooms"
+                                        class="lg:w-6 lg:h-6 w-5 h-5">
+                                    <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Bedrooms</p>
+                                </div>
+                                <p class="font-semibold text-lg lg:text-xl 2xl:text-2xl leading-[150%]">04</p>
+                            </div>
+                            <div class="flex flex-col gap-2.5 md:border-r md:border-border">
+                                <div class="flex gap-1.5">
+                                    <img src="./assets/icons/bathrooms-gray.png" alt="Bathrooms"
+                                        class="lg:w-6 lg:h-6 w-5 h-5">
+                                    <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Bathrooms</p>
+                                </div>
+                                <p class="font-semibold text-lg lg:text-xl 2xl:text-2xl leading-[150%]">03</p>
+                            </div>
+                            <div
+                                class="flex flex-col gap-2.5 max-md:col-span-2 max-md:border-t max-md:border-border max-md:pt-5">
+                                <div class="flex gap-1.5">
+                                    <img src="./assets/icons/area-gray.png" alt="Area" class="lg:w-6 lg:h-6 w-5 h-5">
+                                    <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Area</p>
+                                </div>
+                                <p class="font-semibold text-lg lg:text-xl 2xl:text-2xl leading-[150%]">2,500 Square
+                                    Feet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="broder border-border border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-5 2xl:gap-12.5">
+                    <h4 class="2xl:text-2xl text-lg lg:text-xl leading-[150%] font-semibold">Key Features and Amenities
+                    </h4>
+                    <div class="flex flex-col gap-4.5 2xl:gap-7.5">
+                        <div
+                            class="flex gap-2.5 border-l border-btnSecondary px-6 py-4.5 bg-linear-to-r from-background-secondary to-transparent items-center">
+                            <img src="./assets/icons/bolt-icon.png" alt="Bolt Icon" class="w-4.5 h-5.25">
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Expansive oceanfront
+                                terrace for outdoor
+                                entertaining</p>
+                        </div>
+                        <div
+                            class="flex gap-2.5 border-l border-btnSecondary px-6 py-4.5 bg-linear-to-r from-background-secondary to-transparent items-center">
+                            <img src="./assets/icons/bolt-icon.png" alt="Bolt Icon" class="w-4.5 h-5.25">
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Gourmet kitchen with
+                                top-of-the-line appliances</p>
+                        </div>
+                        <div
+                            class="flex gap-2.5 border-l border-btnSecondary px-6 py-4.5 bg-linear-to-r from-background-secondary to-transparent items-center">
+                            <img src="./assets/icons/bolt-icon.png" alt="Bolt Icon" class="w-4.5 h-5.25">
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Private beach access for
+                                morning strolls and sunset views</p>
+                        </div>
+                        <div
+                            class="flex gap-2.5 border-l border-btnSecondary px-6 py-4.5 bg-linear-to-r from-background-secondary to-transparent items-center">
+                            <img src="./assets/icons/bolt-icon.png" alt="Bolt Icon" class="w-4.5 h-5.25">
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Master suite with a
+                                spa-inspired bathroom and ocean-facing balcony</p>
+                        </div>
+                        <div
+                            class="flex gap-2.5 border-l border-btnSecondary px-6 py-4.5 bg-linear-to-r from-background-secondary to-transparent items-center">
+                            <img src="./assets/icons/bolt-icon.png" alt="Bolt Icon" class="w-4.5 h-5.25">
+                            <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">Private garage and ample
+                                storage space</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
