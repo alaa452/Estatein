@@ -732,6 +732,9 @@
   .gap-50 {
     gap: calc(var(--spacing) * 50);
   }
+  .gap-52 {
+    gap: calc(var(--spacing) * 52);
+  }
   .gap-\[4\.5px\] {
     gap: 4.5px;
   }
@@ -2899,6 +2902,11 @@
   .\32 xl\:max-w-129\.75 {
     @media (width >= 96rem) {
       max-width: calc(var(--spacing) * 129.75);
+    }
+  }
+  .\32 xl\:grid-cols-3 {
+    @media (width >= 96rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
   .\32 xl\:grid-cols-4 {
