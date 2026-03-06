@@ -812,6 +812,10 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .rounded-e-2xl {
+    border-start-end-radius: var(--radius-2xl);
+    border-end-end-radius: var(--radius-2xl);
+  }
   .rounded-t-2xl {
     border-top-left-radius: var(--radius-2xl);
     border-top-right-radius: var(--radius-2xl);
@@ -1353,6 +1357,18 @@
   .whitespace-nowrap {
     white-space: nowrap;
   }
+  .text-\[\#E4E4E7\] {
+    color: #E4E4E7;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[\#ffffff\] {
+    color: #ffffff;
+  }
+  .text-\[E4E4E7\] {
+    color: E4E4E7;
+  }
   .text-background {
     color: var(--color-background);
   }
@@ -1580,6 +1596,11 @@
   .max-lg\:mt-15\.25 {
     @media (width < 64rem) {
       margin-top: calc(var(--spacing) * 15.25);
+    }
+  }
+  .max-lg\:flex {
+    @media (width < 64rem) {
+      display: flex;
     }
   }
   .max-lg\:hidden {
@@ -2435,6 +2456,16 @@
       gap: calc(var(--spacing) * 7.5);
     }
   }
+  .lg\:gap-10 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 10);
+    }
+  }
+  .lg\:gap-12\.5 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 12.5);
+    }
+  }
   .lg\:gap-20 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 20);
@@ -2572,6 +2603,16 @@
       font-size: 30px;
     }
   }
+  .lg\:text-\[\#E4E4E7\] {
+    @media (width >= 64rem) {
+      color: #E4E4E7;
+    }
+  }
+  .lg\:text-\[\#\] {
+    @media (width >= 64rem) {
+      color: #;
+    }
+  }
   .lg\:max-3xl\:gap-15 {
     @media (width >= 64rem) {
       @media (width < 1700px) {
@@ -2611,6 +2652,11 @@
   .xl\:max-w-103 {
     @media (width >= 80rem) {
       max-width: calc(var(--spacing) * 103);
+    }
+  }
+  .xl\:grid-cols-2 {
+    @media (width >= 80rem) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
   .xl\:grid-cols-3 {
@@ -2895,6 +2941,21 @@
       gap: calc(var(--spacing) * 12.5);
     }
   }
+  .\32 xl\:gap-15 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 15);
+    }
+  }
+  .\32 xl\:gap-16 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 16);
+    }
+  }
+  .\32 xl\:gap-18 {
+    @media (width >= 96rem) {
+      gap: calc(var(--spacing) * 18);
+    }
+  }
   .\32 xl\:gap-20 {
     @media (width >= 96rem) {
       gap: calc(var(--spacing) * 20);
@@ -2903,6 +2964,11 @@
   .\32 xl\:gap-25 {
     @media (width >= 96rem) {
       gap: calc(var(--spacing) * 25);
+    }
+  }
+  .\32 xl\:gap-\[60px\] {
+    @media (width >= 96rem) {
+      gap: 60px;
     }
   }
   .\32 xl\:rounded-sm {
@@ -3056,6 +3122,11 @@
   .\32 xl\:text-\[60px\] {
     @media (width >= 96rem) {
       font-size: 60px;
+    }
+  }
+  .\32 xl\:text-\[\#E4E4E7\] {
+    @media (width >= 96rem) {
+      color: #E4E4E7;
     }
   }
 }
