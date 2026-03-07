@@ -129,7 +129,8 @@
                                     class="hero-feature-card__arrow" />
 
                                 <img src="./assets/icons/logoIcon.png" alt="Icon" class="hero-feature-card__icon" />
-                                <p class="hero-feature-card__title flex gap-7.5">
+                                <p
+                                    class="hero-feature-card__title flex gap-2.5 lg:gap-5 2xl:gap-7.5 flex-wrap justify-center">
                                     <a href="#" class="underline">Instagram</a> <a href="#"
                                         class="underline">LinkedIn</a> <a href="#" class="underline">Facebook</a>
                                 </p>
@@ -142,6 +143,107 @@
             </div>
 
         </div>
+    </section>
+
+    <section class="w-full 3xl:mt-27.5 xl:max-3xl:mt-22.5 mt-15.25">
+        <div class="container">
+            <div class="flex flex-col gap-1.5">
+                <h2 class="section-title">
+                    Let's Connect
+                </h2>
+                <p class="section-desc">
+                    We're excited to connect with you and learn more about your real estate goals. Use the form below to
+                    get in touch with Estatein. Whether you're a prospective client, partner, or simply curious about
+                    our services, we're here to answer your questions and provide the assistance you need.
+                </p>
+            </div>
+            <div class="pt-20">
+                <form>
+                    <div
+                        class="border border-border rounded-2xl 2xl:rounded-sm p-5 2xl:p-25 grid md:grid-cols-2 2xl:grid-cols-3 xl:grid-cols-2 gap-12.5">
+
+                        <div class="flex flex-col gap-4">
+                            <label for="first-name" class="font-semibold text-xl">First Name</label>
+                            <input type="text" placeholder="Enter First Name" name="first-name" id="first-name"
+                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <label for="last-name" class="font-semibold text-xl">Last Name</label>
+                            <input type="text" placeholder="Enter Last Name" name="last-name" id="last-name"
+                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <label for="email" class="font-semibold text-xl">Email</label>
+                            <input type="email" placeholder="Enter your Name" name="email" id="email"
+                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <label for="phone-number" class="font-semibold text-xl">Phone</label>
+                            <input type="number" placeholder="Enter Phone Number" name="phone-number" id="phone-number"
+                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <label for="preferred-location" class="font-semibold text-xl">Inquiry Type</label>
+                            <div
+                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                <select name="inquiry-type" id="inquiry-type"
+                                    class="appearance-none text-p w-full outline-none">
+                                    <option value="" selected disabled class="text-black">Select Inquiry Type</option>
+                                    <option class="text-black" value="ny">Schedule a Viewing</option>
+                                    <option class="text-black" value="la">Request More Information</option>
+                                    <option class="text-black" value="ldn">Make an Offer</option>
+                                </select>
+                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                    <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4">
+                            <label for="property-type" class="font-semibold text-xl">How Did You Hear About Us?</label>
+                            <div
+                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                <select name="about-us" id="about-us"
+                                    class="appearance-none text-p w-full outline-none">
+                                    <option value="" selected disabled class="text-black">Select</option>
+                                    <option class="text-black" value="ny">Social Media</option>
+                                    <option class="text-black" value="la">Google Search</option>
+                                    <option class="text-black" value="ldn">Friend</option>
+                                </select>
+                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                    <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-4 2xl:col-span-3 md:col-span-2 xl:max-2xl:col-span-3">
+                            <label for="message" class="font-semibold text-xl">Message</label>
+                            <textarea name="message" id="message" placeholder="Enter your Message here.."
+                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary pb-42.5"></textarea>
+                        </div>
+
+                        <div
+                            class="flex gap-2.5 2xl:col-span-2 items-center md:max-lg:col-span-2 xl:max-2xl:col-span-2 md:max-lg:justify-center">
+                            <input type="checkbox" name="Privacy" id="Privacy"
+                                class="border border-border appearance-none rounded-sm bg-background-secondary  checked:bg-btnSecondary w-6 h-6">
+                            <label for="Privacy" class="font-semibold text-lg text-p">I agree with Terms of Use and
+                                Privacy Policy</label>
+                        </div>
+
+                        <div class="flex md:max-lg:justify-center lg:justify-end md:max-lg:col-span-2 w-full">
+                            <button class="btn-secondary px-15 py-4.5 hover:bg-btnSecondary/60">
+                                Send Your Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
     </section>
 
     
