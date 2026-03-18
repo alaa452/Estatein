@@ -20,16 +20,17 @@
 </head>
 
 <body>
-    <header class="navbar bg-background-secondary w-full sticky top-0 z-50">
-        <div class="bg-[url(../assets/images/navbar/BackGroundNavBar.png)] flex h-12.25 stroke-1">
-            <div class=" w-full max-sm:justify-start row gap-2.5">
-                <p class="font-medium max-md:text-xs max-md:pl-4 ">✨Discover Your Dream Property with Estatein</p>
+    <header class="bg-background-secondary w-full sticky top-0 z-50">
+        <div class="bg-[url(../assets/images/BackGroundNavBar.png)] flex h-12.25 stroke-1 bg-cover bg-center">
+            <div class="w-full flex items-center sm:justify-center gap-1.5 sm:gap-2.5">
+                <p class="font-medium max-md:text-xs max-md:pl-4">✨Discover Your Dream Property with Estatein</p>
                 <a href="#"
-                    class="hunderline cursor-pointer font-medium max-md:text-xs underline hover:text-sky-400 transition-all">Learn
+                    class="cursor-pointer font-medium max-md:text-xs underline hover:text-textHover transition-all">Learn
                     More</a>
             </div>
-            <div class="">
-                <img src="./assets/icons/btnClose.png" alt="button close" class="py-2.75 px-8 max-md:right-4">
+            <div class="flex items-center xl:pr-8 pr-4">
+                <img src="./assets/icons/btnClose.png" alt="button close"
+                    class="p-1 bg-white/10 rounded-full hover:bg-white/20">
             </div>
         </div>
         <div class="border border-border">
@@ -43,25 +44,25 @@
                 <nav class="max-md:hidden h-13.75 max-xll:h-11.25">
                     <ul class="flex gap-7.5 font-medium items-center h-full">
                         <li>
-                            <a href="index.html" class="hover:text-sky-400 transition-all">Home</a>
+                            <a href="index.html" class="hover:text-textHover transition-all">Home</a>
                         </li>
                         <li>
-                            <a href="about-us.html" class="hover:text-sky-400 transition-all">About
+                            <a href="about-us.html" class="hover:text-textHover transition-all">About
                                 Us</a>
                         </li>
 
                         <li class="flex items-center h-full">
                             <a href="#"
-                                class="btn-primary h-full row hover:bg-white/10 hover:text-sky-400 transition-all">Properties</a>
+                                class="btn-primary h-full row hover:bg-white/10 hover:text-textHover transition-all">Properties</a>
                         </li>
                         <li>
-                            <a href="services.html" class="hover:text-sky-400 transition-all">Services</a>
+                            <a href="services.html" class="hover:text-textHover transition-all">Services</a>
                         </li>
                     </ul>
                 </nav>
                 <div>
                     <button
-                        class="btn-primary h-14.75 w-34 max-md:hidden transition-all hover:bg-white/10 hover:text-sky-400"><a
+                        class="btn-primary h-14.75 w-34 max-md:hidden transition-all hover:bg-white/10 hover:text-textHover"><a
                             href="Contact.html">Contact
                             Us</a></button>
                     <img src="./assets/icons/Vector(Stroke).png" alt="menu bar"
@@ -88,7 +89,7 @@
                     <div>
                         <div class="xl:px-37 xl:pb-2.5 sm:pb-0 pb-5">
                             <div
-                                class="flex justify-between items-center px-5 h-17 xl:max-3xl:h-20.25 3xl:h-25.75 bg-background shadow-[0_0_0_4px_#1A1A1A] xl:shadow-[0_0_0_10px_#1A1A1A] border border-border xl:rounded-t-2xl rounded-t-2xl max-xl:rounded-b-2xl">
+                                class="flex justify-between items-center focus-within:border-white focus-within:border-3 px-5 h-17 xl:max-3xl:h-20.25 3xl:h-25.75 bg-background shadow-[0_0_0_4px_#1A1A1A] xl:shadow-[0_0_0_10px_#1A1A1A] border border-border xl:rounded-t-2xl rounded-t-2xl max-xl:rounded-b-2xl">
                                 <input type="text" placeholder="Search For A Property"
                                     class="lg:text-xl 2xl:text-2xl text-base outline-none w-[70%]">
                                 <div
@@ -103,11 +104,11 @@
                         <div
                             class="grid xl:grid-cols-5 sm:grid-cols-2 grid-cols-1 gap-3 bg-background-secondary p-2.5 rounded-xl">
                             <div
-                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3">
+                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 focus-within:border-white focus-within:border-2">
                                 <div class="flex gap-2.5">
                                     <div><img src="./assets/icons/location.png" alt="location"></div>
-                                    <div class="text-p border-l border-border pl-2.5">
-                                        <select name="location" class="appearance-none outline-none">
+                                    <div class="text-p border-l border-border pl-2.5 ">
+                                        <select name="location" class="appearance-none outline-none ">
                                             <option value="" selected disabled class="text-black">Location</option>
                                             <option class="text-black" value="ny">New York</option>
                                             <option class="text-black" value="la">Los Angeles</option>
@@ -119,7 +120,7 @@
                                         src="./assets/icons/arrow-select.png" alt="Arrow Select"></div>
                             </div>
                             <div
-                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3">
+                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 focus-within:border-white focus-within:border-2">
                                 <div class="flex gap-2.5">
                                     <div><img src="./assets/icons/type.png" alt="Property Type"></div>
                                     <div class="text-p border-l border-border pl-2.5">
@@ -135,7 +136,7 @@
                                         src="./assets/icons/arrow-select.png" alt="Arrow Select"></div>
                             </div>
                             <div
-                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3">
+                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 focus-within:border-white focus-within:border-2">
                                 <div class="flex gap-2.5">
                                     <div><img src="./assets/icons/pricing-range.png" alt="Pricing Range"></div>
                                     <div class="text-p border-l border-border pl-2.5">
@@ -151,7 +152,7 @@
                                         src="./assets/icons/arrow-select.png" alt="Arrow Select"></div>
                             </div>
                             <div
-                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3">
+                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 focus-within:border-white focus-within:border-2">
                                 <div class="flex gap-2.5">
                                     <div><img src="./assets/icons/size.png" alt="Property Size"></div>
                                     <div class="text-p border-l border-border pl-2.5">
@@ -167,7 +168,7 @@
                                         src="./assets/icons/arrow-select.png" alt="Arrow Select"></div>
                             </div>
                             <div
-                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 sm:max-xl:col-span-2">
+                                class="border border-border flex items-center bg-background justify-between rounded-2xl 2xl:p-5 px-3.5 py-3 sm:max-xl:col-span-2 focus-within:border-white focus-within:border-2">
                                 <div class="flex gap-2.5">
                                     <div><img src="./assets/icons/year.png" alt="Build Year"></div>
                                     <div class="text-p border-l border-border pl-2.5">
@@ -189,7 +190,7 @@
         </div>
     </section>
 
-    <section class="w-full 3xl:mt-27.5 xl:max-3xl:mt-22.5 mt-15.25">
+    <section class="w-full">
         <div class="container section-stars">
             <img src="./assets/images/Stars.png" alt="Stars" class="h-5 w-11.5">
         </div>
@@ -204,7 +205,7 @@
                 </p>
             </div>
             <div class="max-sm:hidden">
-                <button class="btn-primary btn-view-all hover:bg-white/10 hover:text-sky-400">
+                <button class="btn-primary btn-view-all hover:bg-white/10 hover:text-textHover">
                     View All Properties
                 </button>
             </div>
@@ -302,7 +303,7 @@
         <div class="section-pagination container">
             <div class="section-pagination__mobile">
                 <button
-                    class="btn-primary text-sm 3xl:text-lg py-3.5 p-3 3xl:py-4.5 hover:bg-white/10 hover:text-sky-400 max-[370px]:text-xs">
+                    class="btn-primary text-sm 3xl:text-lg py-3.5 p-3 3xl:py-4.5 hover:bg-white/10 hover:text-textHover max-[370px]:text-xs">
                     View All Testimonials
                 </button>
             </div>
@@ -337,36 +338,36 @@
             <div class="pt-20">
                 <form>
                     <div
-                        class="border border-border rounded-2xl 2xl:rounded-sm p-5 2xl:p-25 grid md:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 gap-12.5">
+                        class="border border-border rounded-2xl 2xl:rounded-sm p-5 2xl:p-25 grid md:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 gap-12.5 hover:shadow-[0_0_0_10px_#191919] transition-all">
 
                         <div class="flex flex-col gap-4">
                             <label for="first-name" class="font-semibold text-xl">First Name</label>
                             <input type="text" placeholder="Enter First Name" name="first-name" id="first-name"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="last-name" class="font-semibold text-xl">Last Name</label>
                             <input type="text" placeholder="Enter Last Name" name="last-name" id="last-name"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="email" class="font-semibold text-xl">Email</label>
                             <input type="email" placeholder="Enter your Name" name="email" id="email"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="phone-number" class="font-semibold text-xl">Phone</label>
                             <input type="number" placeholder="Enter Phone Number" name="phone-number" id="phone-number"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="preferred-location" class="font-semibold text-xl">Preferred Location</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                class="select-box">
                                 <select name="preferred-location" id="preferred-location"
                                     class="appearance-none text-p w-full outline-none">
                                     <option value="" selected disabled class="text-black">Location</option>
@@ -374,7 +375,7 @@
                                     <option class="text-black" value="la">Los Angeles</option>
                                     <option class="text-black" value="ldn">London</option>
                                 </select>
-                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                <div class="select-icon">
                                     <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
                                 </div>
                             </div>
@@ -383,7 +384,7 @@
                         <div class="flex flex-col gap-4">
                             <label for="property-type" class="font-semibold text-xl">Property Type</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                class="select-box">
                                 <select name="property-type" id="property-type"
                                     class="appearance-none text-p w-full outline-none">
                                     <option value="" selected disabled class="text-black">Select Property Type</option>
@@ -391,7 +392,7 @@
                                     <option class="text-black" value="la">Villa</option>
                                     <option class="text-black" value="ldn">Townhouse</option>
                                 </select>
-                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                <div class="select-icon">
                                     <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
                                 </div>
                             </div>
@@ -400,7 +401,7 @@
                         <div class="flex flex-col gap-4">
                             <label for="bedrooms" class="font-semibold text-xl">No. of Bedrooms</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                class="select-box">
                                 <select name="bedrooms" id="bedrooms"
                                     class="appearance-none text-p w-full outline-none">
                                     <option value="" selected disabled class="text-black">Select no. of Bedrooms
@@ -409,17 +410,17 @@
                                     <option class="text-black" value="la">Bedroom 2</option>
                                     <option class="text-black" value="ldn">Bedroom +3</option>
                                 </select>
-                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                <div class="select-icon">
                                     <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
                                 </div>
                             </div>
                         </div>
 
                         <div class="flex flex-col gap-4 xl:max-2xl:col-span-2">
-                            <label for="bedrooms" class="font-semibold text-xl">No. of Bedrooms</label>
+                            <label for="bedrooms2" class="font-semibold text-xl">No. of Bedrooms</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
-                                <select name="bedrooms" id="bedrooms"
+                                class="select-box">
+                                <select name="bedrooms2" id="bedrooms2"
                                     class="appearance-none text-p w-full outline-none">
                                     <option value="" selected disabled class="text-black">Select no. of Bedrooms
                                     </option>
@@ -427,7 +428,7 @@
                                     <option class="text-black" value="la">Bedroom 2</option>
                                     <option class="text-black" value="ldn">Bedroom +3</option>
                                 </select>
-                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                <div class="select-icon">
                                     <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
                                 </div>
                             </div>
@@ -436,14 +437,14 @@
                         <div class="flex flex-col gap-4 col-span-1 2xl:col-span-2 md:max-xl:col-span-2">
                             <label for="budget" class="font-semibold text-xl">Budget</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                class="select-box">
                                 <select name="budget" id="budget" class="appearance-none text-p w-full outline-none">
                                     <option value="" selected disabled class="text-black">Select Budget</option>
                                     <option class="text-black" value="ny">$100,000 – $300,000</option>
                                     <option class="text-black" value="la">$100,000 – $300,000</option>
                                     <option class="text-black" value="ldn">$600,000 +</option>
                                 </select>
-                                <div class="p-1 h-8 w-8 row hover:bg-button rounded-full">
+                                <div class="select-icon">
                                     <img src="./assets/icons/arrow-select.png" alt="Arrow Select">
                                 </div>
                             </div>
@@ -453,7 +454,7 @@
                             <label for="phone-number2" class="font-semibold text-xl">Preferred Contact Method</label>
                             <div class="flex flex-col md:flex-row gap-4">
                                 <div
-                                    class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                    class="select-box">
                                     <div class="p-1 h-8 w-8 row">
                                         <img src="./assets/icons/phone.png" alt="phone">
                                     </div>
@@ -466,7 +467,7 @@
                                     </div>
                                 </div>
                                 <div
-                                    class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary">
+                                    class="select-box">
                                     <div class="p-1 h-8 w-8 row">
                                         <img src="./assets/icons/email.png" alt="Email">
                                     </div>
@@ -484,7 +485,7 @@
                         <div class="flex flex-col gap-4 2xl:col-span-4 md:col-span-2 xl:max-2xl:col-span-3">
                             <label for="message" class="font-semibold text-xl">Message</label>
                             <textarea name="message" id="message" placeholder="Enter your Message here.."
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary pb-42.5"></textarea>
+                                class="form-input pb-42.5"></textarea>
                         </div>
 
                         <div
@@ -547,7 +548,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex items-center justify-between gap-2.5 border border-border rounded-xl 3xl:px-6 3xl:py-4.5 px-5 py-3.5 sm:max-xl:w-1/2 w-full max-w-full 3xl:max-w-105.75">
+                    class="flex items-center justify-between gap-2.5 border border-border rounded-xl 3xl:px-6 3xl:py-4.5 px-5 py-3.5 sm:max-xl:w-1/2 w-full max-w-full 3xl:max-w-105.75 focus-within:border-white focus-within:border-2 transition">
                     <div class="flex items-center gap-2.5">
                         <img src="./assets/icons/email-box.png" alt="Email Box">
                         <input type="email" placeholder="Enter Your Email"
@@ -565,19 +566,19 @@
                         <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">Home</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Hero
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Hero
                                     Section</a></li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Features</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Features</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Properties</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Properties</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">FAQ's</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">FAQ's</a>
                             </li>
                         </ul>
                     </div>
@@ -586,19 +587,19 @@
                     <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">About Us</h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Story</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Works</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Team</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
                         </li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Clients</a></li>
                     </ul>
                 </div>
@@ -607,19 +608,19 @@
                     <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">Services</h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Valuation
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Valuation
                                 Mastery</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Strategic
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Strategic
                                 Marketing</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Negotiation
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Negotiation
                                 Wizardry</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Closing
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Closing
                                 Success</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Property
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Property
                                 Management</a></li>
                     </ul>
                 </div>
@@ -630,10 +631,10 @@
                             Properties</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Portfolio</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Portfolio</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Categories</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Categories</a>
                             </li>
                         </ul>
                     </div>
@@ -644,10 +645,10 @@
                             Us</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
                                     Form</a></li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                     Offices</a></li>
                         </ul>
                     </div>
@@ -657,10 +658,10 @@
                     </h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
                                 Form</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Offices</a></li>
                     </ul>
                 </div>

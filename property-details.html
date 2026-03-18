@@ -21,16 +21,17 @@
 
 <body>
 
-    <header class="navbar bg-background-secondary w-full sticky top-0 z-50">
-        <div class="bg-[url(../assets/images/navbar/BackGroundNavBar.png)] flex h-12.25 stroke-1">
-            <div class=" w-full max-sm:justify-start row gap-2.5">
-                <p class="font-medium max-md:text-xs max-md:pl-4 ">✨Discover Your Dream Property with Estatein</p>
+    <header class="bg-background-secondary w-full sticky top-0 z-50">
+        <div class="bg-[url(../assets/images/BackGroundNavBar.png)] flex h-12.25 stroke-1 bg-cover bg-center">
+            <div class="w-full flex items-center sm:justify-center gap-1.5 sm:gap-2.5">
+                <p class="font-medium max-md:text-xs max-md:pl-4">✨Discover Your Dream Property with Estatein</p>
                 <a href="#"
-                    class="hunderline cursor-pointer font-medium max-md:text-xs underline hover:text-sky-400 transition-all">Learn
+                    class="cursor-pointer font-medium max-md:text-xs underline hover:text-textHover transition-all">Learn
                     More</a>
             </div>
-            <div class="">
-                <img src="./assets/icons/btnClose.png" alt="button close" class="py-2.75 px-8 max-md:right-4">
+            <div class="flex items-center xl:pr-8 pr-4">
+                <img src="./assets/icons/btnClose.png" alt="button close"
+                    class="p-1 bg-white/10 rounded-full hover:bg-white/20">
             </div>
         </div>
         <div class="border border-border">
@@ -44,25 +45,25 @@
                 <nav class="max-md:hidden h-13.75 max-xll:h-11.25">
                     <ul class="flex gap-7.5 font-medium items-center h-full">
                         <li>
-                            <a href="index.html" class="hover:text-sky-400 transition-all">Home</a>
+                            <a href="index.html" class="hover:text-textHover transition-all">Home</a>
                         </li>
                         <li>
-                            <a href="about-us.html" class="hover:text-sky-400 transition-all">About
+                            <a href="about-us.html" class="hover:text-textHover transition-all">About
                                 Us</a>
                         </li>
 
                         <li class="flex items-center h-full">
                             <a href="#"
-                                class="btn-primary h-full row hover:bg-white/10 hover:text-sky-400 transition-all">Properties</a>
+                                class="btn-primary h-full row hover:bg-white/10 hover:text-textHover transition-all">Properties</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:text-sky-400 transition-all">Services</a>
+                            <a href="#" class="hover:text-textHover transition-all">Services</a>
                         </li>
                     </ul>
                 </nav>
                 <div>
                     <button
-                        class="btn-primary h-14.75 w-34 max-md:hidden transition-all hover:bg-white/10 hover:text-sky-400">
+                        class="btn-primary h-14.75 w-34 max-md:hidden transition-all hover:bg-white/10 hover:text-textHover">
                         <a href="Contact.html">Contact Us</a>
                     </button>
                     <img src="./assets/icons/Vector(Stroke).png" alt="menu bar"
@@ -114,7 +115,7 @@
                 <div class="flex justify-center p-2 xl:p-2.5 max-lg:order-3">
                     <div
                         class="flex gap-2.5 items-center bg-background rounded-full p-2.5 justify-between max-md:w-full">
-                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-border">
+                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-border hover:bg-border/70 transition-all cursor-pointer">
                             <img src="./assets/icons/left-arrow.png" alt="Left Arrow">
                         </div>
 
@@ -128,7 +129,7 @@
 
                         </div>
 
-                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-background-secondary">
+                        <div class="rounded-full p-2.5 2xl:p-3.5 bg-background-secondary hover:bg-background-secondary/70 cursor-pointer transition-all">
                             <img src="./assets/icons/right-arrow.png" alt="Right Arrow">
                         </div>
                     </div>
@@ -137,7 +138,7 @@
 
             <div class="grid lg:grid-cols-2 gap-7.5">
                 <div>
-                    <div class="broder border-border border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-12.5">
+                    <div class="border border-border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-12.5">
                         <div class="flex flex-col gap-3.5">
                             <h4 class="xl:text-2xl text-lg md:text-xl font-semibold leading-[150%]">Description</h4>
                             <p class="text-p 2xl:text-lg text-sm md:text-base leading-[150%]">
@@ -180,7 +181,7 @@
                     </div>
                 </div>
                 <div
-                    class="broder border-border border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-5 2xl:gap-12.5">
+                    class="border border-border rounded-2xl p-5 xl:p-10 2xl:p-12.5 flex flex-col gap-5 2xl:gap-12.5">
                     <h4 class="2xl:text-2xl text-lg lg:text-xl leading-[150%] font-semibold">Key Features and Amenities
                     </h4>
                     <div class="flex flex-col gap-4.5 2xl:gap-7.5">
@@ -244,35 +245,35 @@
             <div class="w-full">
                 <form action="">
                     <div
-                        class="border border-border rounded-xl p-5 lg:p-10 2xl:p-12.5 grid lg:grid-cols-2 gap-5 lg:gap-7.5">
+                        class="border border-border rounded-xl p-5 lg:p-10 2xl:p-12.5 grid lg:grid-cols-2 gap-5 lg:gap-7.5 hover:shadow-[0_0_0_10px_#191919] transition-all">
                         <div class="flex flex-col gap-4">
                             <label for="first-name" class="font-semibold text-xl">First Name</label>
                             <input type="text" placeholder="Enter First Name" name="first-name" id="first-name"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="last-name" class="font-semibold text-xl">Last Name</label>
                             <input type="text" placeholder="Enter Last Name" name="last-name" id="last-name"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="email" class="font-semibold text-xl">Email</label>
                             <input type="email" placeholder="Enter your Name" name="email" id="email"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4">
                             <label for="phone-number" class="font-semibold text-xl">Phone</label>
                             <input type="number" placeholder="Enter Phone Number" name="phone-number" id="phone-number"
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary">
+                                class="form-input">
                         </div>
 
                         <div class="flex flex-col gap-4 lg:col-span-2">
                             <label for="selected-property" class="font-semibold text-xl">Selected Property</label>
                             <div
-                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary justify-between">
+                                class="w-full flex items-center border border-border rounded-xl px-5 py-6 gap-1 bg-background-secondary justify-between focus-within:border-white focus-within:border-2">
                                 <input type="text" placeholder="Enter Selected Property" name="selected-property"
                                     id="selected-property" value="Seaside Serenity Villa, Malibu, California"
                                     class="text-lg bg-background-secondary w-[70%] outline-none">
@@ -285,7 +286,7 @@
                         <div class="flex flex-col gap-4 lg:col-span-2">
                             <label for="message" class="font-semibold text-xl">Message</label>
                             <textarea name="message" id="message" placeholder="Enter your Message here.."
-                                class="text-lg border border-border rounded-xl px-5 py-6 bg-background-secondary 3xl:pb-42.5 pb-22.5"></textarea>
+                                class="form-input 3xl:pb-42.5 pb-22.5"></textarea>
                         </div>
 
                         <div class="flex gap-2.5 items-center sm:max-lg:justify-center">
@@ -345,38 +346,38 @@
                     </div>
                     <div class="flex flex-col gap-10">
                         <div
-                            class="flex flex-col gap-5 2xl:gap-10 border border-border rounded-xl px-5 py-7.5 2xl:p-12.5 w-full">
+                            class="flex flex-col gap-5 2xl:gap-10 section-box">
                             <div
-                                class="flex items-center justify-between border-b border-border 2xl:pb-10 lg:pb-7.5 max-lg:pb-5">
+                                class="section-box-header max-lg:pb-5">
                                 <h4 class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">Additional Fees
                                 </h4>
-                                <button class="btn-primary py-4.5 max-lg:px-3">
+                                <button class="btn-primary py-4.5 max-lg:px-3 hover:bg-white/10 hover:text-textHover">
                                     Learn More
                                 </button>
                             </div>
 
-                            <div class="flex max-lg:flex-col lg:gap-5 gap-2.5 border-b border-border pb-5 2xl:pb-10">
+                            <div class="split-row 2xl:pb-10">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
+                                    class="left-box">
                                     <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property Transfer
                                         Tax</p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">$25,000
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm 2xl:text-lg xl:text-base">Based on the sale price and
                                                 local regulations</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-4 w-full lg:w-[50%] ">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Legal Fees</p>
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Legal Fees</p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$3,000
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm lg:text-base xl:text-base">Approximate cost for legal
                                                 services, including title transfer</p>
                                         </div>
@@ -384,28 +385,28 @@
                                 </div>
                             </div>
 
-                            <div class="flex max-lg:flex-col lg:gap-5 gap-2.5 border-b border-border pb-5 2xl:pb-10">
+                            <div class="split-row 2xl:pb-10">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Home Inspection
+                                    class="left-box">
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Home Inspection
                                     </p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$500</p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm 2xl:text-lg xl:text-base">Recommended for due diligence
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-4 lg:pr-5 w-full lg:w-[50%]">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Property
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property
                                         Insurance</p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$1,200
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm 2xl:text-lg xl:text-base">Annual cost for comprehensive
                                                 property insurance</p>
                                         </div>
@@ -415,7 +416,7 @@
 
                             <div>
                                 <div class="flex flex-col gap-4">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Property Transfer
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property Transfer
                                         Tax</p>
                                     <div class="flex gap-4">
                                         <p class="2xl:text-2xl text-lg font-semibold leading-[150%]">$25,000</p>
@@ -431,18 +432,18 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-5 2xl:gap-10 border border-border rounded-xl px-5 py-7.5 2xl:p-12.5 w-full">
+                            class="flex flex-col gap-5 2xl:gap-10 section-box">
                             <div
-                                class="flex items-center justify-between border-b border-border 2xl:pb-10 lg:pb-7.5 max-lg:pb-5">
+                                class="section-box-header max-lg:pb-5">
                                 <h4 class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">Monthly Costs
                                 </h4>
-                                <button class="btn-primary py-4.5 max-lg:px-3">
+                                <button class="btn-primary py-4.5 max-lg:px-3 hover:bg-white/10 hover:text-textHover">
                                     Learn More
                                 </button>
                             </div>
 
                             <div class="flex flex-col gap-4 border-b border-border pb-5 2xl:pb-10">
-                                <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Property Taxes
+                                <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property Taxes
                                 </p>
                                 <div class="flex gap-4">
                                     <p class="2xl:text-2xl text-lg font-semibold leading-[150%]">$1,250</p>
@@ -455,7 +456,7 @@
                             </div>
 
                             <div class="flex flex-col gap-4">
-                                <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Homeowners'
+                                <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Homeowners'
                                     Association Fee
                                 </p>
                                 <div class="flex gap-4">
@@ -471,33 +472,33 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-5 2xl:gap-10 border border-border rounded-xl px-5 py-7.5 2xl:p-12.5 w-full">
+                            class="flex flex-col gap-5 2xl:gap-10 section-box">
                             <div
-                                class="flex items-center justify-between border-b border-border 2xl:pb-10 lg:pb-7.5 max-lg:pb-5">
+                                class="section-box-header max-lg:pb-5">
                                 <h4 class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">Total Initial
                                     Costs
                                 </h4>
-                                <button class="btn-primary py-4.5 max-lg:px-3">
+                                <button class="btn-primary py-4.5 max-lg:px-3 hover:bg-white/10 hover:text-textHover">
                                     Learn More
                                 </button>
                             </div>
 
-                            <div class="flex max-lg:flex-col lg:gap-5 gap-2.5 border-b border-border pb-5 2xl:pb-10">
+                            <div class="split-row">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
+                                    class="left-box">
                                     <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Listing Price</p>
                                     <p class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">
                                         $1,250,000
                                     </p>
                                 </div>
                                 <div class="flex flex-col gap-4 w-full lg:w-[50%] ">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Additional Fees
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Additional Fees
                                     </p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$29,700
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm lg:text-base xl:text-base">Property transfer tax, legal
                                                 fees, inspection, insurance</p>
                                         </div>
@@ -507,28 +508,28 @@
 
                             <div class="flex max-lg:flex-col lg:gap-5 gap-2.5">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Down Payment
+                                    class="left-box">
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Down Payment
                                     </p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$250,000
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm 2xl:text-lg xl:text-base">20%
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-4 lg:pr-5 w-full lg:w-[50%]">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Mortgage Amount
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Mortgage Amount
                                     </p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">
                                             $1,000,000
                                         </p>
                                         <div
-                                            class="text-p border border-border rounded-2xl lg:rounded-full px-3 2xl:px-3.5 py-1.5 2xl:py-2 bg-background-secondary">
+                                            class="inside-box-shape">
                                             <p class="text-sm 2xl:text-lg xl:text-base">If applicable</p>
                                         </div>
                                     </div>
@@ -537,26 +538,26 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-5 2xl:gap-10 border border-border rounded-xl px-5 py-7.5 2xl:p-12.5 w-full">
+                            class="flex flex-col gap-5 2xl:gap-10 section-box">
                             <div
-                                class="flex items-center justify-between border-b border-border 2xl:pb-10 lg:pb-7.5 max-lg:pb-5">
+                                class="section-box-header 2xl:pb-10 lg:pb-7.5 max-lg:pb-5">
                                 <h4 class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">Monthly
                                     Expenses
                                 </h4>
-                                <button class="btn-primary py-4.5 max-lg:px-3">
+                                <button class="btn-primary py-4.5 max-lg:px-3 hover:bg-white/10 hover:text-textHover">
                                     Learn More
                                 </button>
                             </div>
 
-                            <div class="flex max-lg:flex-col lg:gap-5 gap-2.5 border-b border-border pb-5 2xl:pb-10">
+                            <div class="split-row">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
+                                    class="left-box">
                                     <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property Taxes</p>
                                     <p class="2xl:text-2xl lg:text-xl text-lg font-semibold leading-[150%]">$1,250
                                     </p>
                                 </div>
                                 <div class="flex flex-col gap-4 w-full lg:w-[50%] ">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Homeowners'
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Homeowners'
                                         Association Fee</p>
                                     <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$300
                                     </p>
@@ -566,8 +567,8 @@
 
                             <div class="flex max-lg:flex-col lg:gap-5 gap-2.5">
                                 <div
-                                    class="flex flex-col gap-4 lg:border-r max-lg:border-b border-border lg:pr-5 w-full lg:w-[50%] max-lg:pb-5">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">Mortgage Payment
+                                    class="left-box">
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Mortgage Payment
                                     </p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-xl text-lg leading-[150%] font-light">Varies based on terms
@@ -580,7 +581,7 @@
                                     </div>
                                 </div>
                                 <div class="flex flex-col gap-4 lg:pr-5 w-full lg:w-[50%]">
-                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]]">MProperty
+                                    <p class="text-p 2xl:text-xl lg:text-base text-sm leading-[150%]">Property
                                         Insurance</p>
                                     <div class="flex gap-3 2xl:gap-4">
                                         <p class="2xl:text-2xl text-lg lg:text-xl font-semibold leading-[150%]">$100
@@ -613,7 +614,7 @@
                     clarity and assist you every step of the way.</p>
             </div>
             <div class="max-sm:hidden">
-                <button class="btn-primary btn-view-all hover:bg-white/10 hover:text-sky-400">
+                <button class="btn-primary btn-view-all hover:bg-white/10 hover:text-textHover">
                     View All FAQ’s
                 </button>
             </div>
@@ -627,7 +628,7 @@
                         to find
                         properties that match your criteria.
                     </p>
-                    <button class="btn-primary faq-btn hover:bg-white/10 hover:text-sky-400">
+                    <button class="btn-primary faq-btn hover:bg-white/10 hover:text-textHover">
                         Read More
                     </button>
                 </div>
@@ -638,19 +639,19 @@
                     <p class="faq-text">
                         Find out about the necessary documentation for listing your property with us.
                     </p>
-                    <button class="btn-primary faq-btn hover:bg-white/10 hover:text-sky-400">
+                    <button class="btn-primary faq-btn hover:bg-white/10 hover:text-textHover">
                         Read More
                     </button>
                 </div>
             </div>
             <div
-                class="border border-border flex flex-col  justify-self-center rounded-xl p-6 sm:max-3xl:p-10 3xl:p-12.5 h-full w-full sm:max-xl:hidden 2xl:none">
+                class="border border-border flex flex-col  justify-self-center rounded-xl p-6 sm:max-3xl:p-10 3xl:p-12.5 h-full w-full sm:max-xl:hidden 2xl:none hover:border-white hover:border-2">
                 <div class="faq-body">
                     <h3 class="faq-title">How can I contact an Estatein agent?</h3>
                     <p class="faq-text">
                         Discover the different ways you can get in touch with our experienced agents.
                     </p>
-                    <button class="btn-primary mt-auto py-4.5 px-6 max-w-33.5 hover:bg-white/10 hover:text-sky-400">
+                    <button class="btn-primary mt-auto py-4.5 px-6 max-w-33.5 hover:bg-white/10 hover:text-textHover">
                         Read More
                     </button>
                 </div>
@@ -659,7 +660,7 @@
         <div class="section-pagination container">
             <div class="section-pagination__mobile">
                 <button
-                    class="btn-primary text-sm 3xl:text-lg py-3.5 p-3 3xl:py-4.5 hover:bg-white/10 hover:text-sky-400 max-[370px]:text-xs">
+                    class="btn-primary text-sm 3xl:text-lg py-3.5 p-3 3xl:py-4.5 hover:bg-white/10 hover:text-textHover max-[370px]:text-xs">
                     View All FAQ’s
                 </button>
             </div>
@@ -720,7 +721,7 @@
                     </div>
                 </div>
                 <div
-                    class="flex items-center justify-between gap-2.5 border border-border rounded-xl 3xl:px-6 3xl:py-4.5 px-5 py-3.5 sm:max-xl:w-1/2 w-full max-w-full 3xl:max-w-105.75">
+                    class="flex items-center justify-between gap-2.5 border border-border rounded-xl 3xl:px-6 3xl:py-4.5 px-5 py-3.5 sm:max-xl:w-1/2 w-full max-w-full 3xl:max-w-105.75 focus-within:border-white focus-within:border-2 transition">
                     <div class="flex items-center gap-2.5">
                         <img src="./assets/icons/email-box.png" alt="Email Box">
                         <input type="email" placeholder="Enter Your Email"
@@ -738,19 +739,19 @@
                         <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">Home</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Hero
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Hero
                                     Section</a></li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Features</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Features</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Properties</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Properties</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">FAQ's</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">FAQ's</a>
                             </li>
                         </ul>
                     </div>
@@ -759,19 +760,19 @@
                     <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">About Us</h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Story</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Works</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Team</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Testimonials</a>
                         </li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Clients</a></li>
                     </ul>
                 </div>
@@ -780,19 +781,19 @@
                     <h4 class="text-p text-base xl:max-3xl:text-lg 3xl:text-xl leading-6 -tracking-[0.6%]">Services</h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Valuation
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Valuation
                                 Mastery</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Strategic
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Strategic
                                 Marketing</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Negotiation
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Negotiation
                                 Wizardry</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Closing
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Closing
                                 Success</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Property
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Property
                                 Management</a></li>
                     </ul>
                 </div>
@@ -803,10 +804,10 @@
                             Properties</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Portfolio</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Portfolio</a>
                             </li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Categories</a>
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Categories</a>
                             </li>
                         </ul>
                     </div>
@@ -817,10 +818,10 @@
                             Us</h4>
                         <ul class="flex flex-col gap-3">
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
                                     Form</a></li>
                             <li><a href="#"
-                                    class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                    class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                     Offices</a></li>
                         </ul>
                     </div>
@@ -830,10 +831,10 @@
                     </h4>
                     <ul class="flex flex-col gap-3">
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Contact
                                 Form</a></li>
                         <li><a href="#"
-                                class="hover:text-btnSecondary transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
+                                class="hover:text-btnSecondary hover:underline transition text-sm xl:max-3xl:text-base 3xl:text-lg leading-6 -tracking-[0.6%]">Our
                                 Offices</a></li>
                     </ul>
                 </div>
